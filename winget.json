@@ -1,0 +1,45 @@
+{
+	"$schema": "https://aka.ms/winget-packages.schema.2.0.json",
+	"CreationDate": "2021-07-12T17:08:04.499-00:00",
+	"Sources": [
+		{
+			"Packages": [
+				{
+					"PackageIdentifier": "Microsoft.Edge",
+					"Scope": "machine"
+				},
+				{
+					"PackageIdentifier": "Microsoft.EdgeWebView2Runtime",
+					"Scope": "machine"
+				},
+				{
+					"PackageIdentifier": "Microsoft.Office",
+					"Scope": "machine"
+				},
+				{
+					"PackageIdentifier": "Microsoft.OneDrive",
+					"Scope": "machine"
+				},
+				{
+					"PackageIdentifier": "Microsoft.Teams",
+					"Scope": "machine"
+				},
+				{
+					"PackageIdentifier": "Google.Chrome",
+					"Scope": "machine"
+				},
+				{
+					"PackageIdentifier": "Adobe.AdobeAcrobatReaderDC",
+					"Scope": "machine"
+				}
+			],
+			"SourceDetails": {
+				"Argument": "https://winget.azureedge.net/cache",
+				"Identifier": "Microsoft.Winget.Source_8wekyb3d8bbwe",
+				"Name": "winget",
+				"Type": "Microsoft.PreIndexed.Package"
+			}
+		}
+	],
+	"WinGetVersion": "1.0.11694"
+}
